@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-black text-white
+}
+
+/* left side bar 275px 
+    right side bar = 350px
+    content bar = auto
+
+    total width= 1265
+*/
