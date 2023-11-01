@@ -103,3 +103,38 @@ export const mainMenu = [
     }
     
 ]
+
+
+export const topics = [
+    {
+        title: 'United States Trending',
+        topic: {
+            type: 'tag',
+            value: 'ElonMusk'
+        }
+    },
+    {
+        title: 'United States Trending',
+        topic: {
+            type: 'query',
+            value: 'Lebron James'
+        },
+        postCount: 998356
+    },
+    {
+        title: 'Germany Trending',
+        topic: {
+            type: 'query',
+            value: 'Tesla Factory'
+        },
+        postCount: 1356
+    },
+    {
+        title: 'International Trending',
+        topic: {
+            type: 'query',
+            value: 'Kutay Erten'
+        },
+        postCount: 1200000
+    },
+]
