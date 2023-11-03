@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom'
 
 export default function SidebarSection({title , children , more}) {
   return (
-    <section className='bg-[#16181c] mb-4 rounded-2xl border border-[#16181c]'>
-       <h5 className='py-3 px-4 flex items-center text-xl font-bold'>
+    <section className='bg-[color:var(--background-secondary)] mb-4 rounded-2xl border border-[color:var(--background-secondary)]'>
+       <h5 className='py-3 px-4 flex items-center text-xl font-bold '>
          {title}
       </h5>
       <div className='grid'>
         {children}
         {more && (
-            <Link to={more} className="h-[52px] flex items-center text-left text-[15px] text-[#1d9bf0] px-4 transition-colors w-full hover:bg-[#3c424452] rounded-b-2xl">
+            <Link to={more} className="h-[52px] flex items-center text-left text-[15px] text-[#1d9bf0] px-4 transition-colors w-full hover:bg-[color:var(--background-third)] 1 rounded-b-2xl">
                 Show more
              </Link>
         )}
