@@ -38,27 +38,27 @@ export default function More() {
                        Monetization
                    </div>
                </button>
-                <div className="bg-[#2f3336] h-px my-0.5 w-[89%] mx-auto" />
+                <div className="bg-[color:var(--background-third)] h-px my-0.5 w-[89%] mx-auto" />
                <Disclosure>
                    {({open}) => (
                     <>
-                        <Disclosure.Button className="w-full  h-[52px]  flex items-center justify-between px-4 font-bold hover:bg-[color:var(--background-third)] 1 transition-colors">
+                        <Disclosure.Button className="w-full  h-[52px]  flex items-center justify-between px-4 font-bold hover:bg-[color:var(--background-third)]  transition-colors">
                         Creator Studio 
                             <svg 
                             className={classNames("transition-all block",{
-                                "rotate-180 text-[#1d9bf0]": open
+                                "rotate-180 text-[color:var(--color-primary)]": open
                             })}
                             viewBox="0 0 24 24"  width={18.75} height={18.75}><path fill="currentColor" d="M3.543 8.96l1.414-1.42L12 14.59l7.043-7.05 1.414 1.42L12 17.41 3.543 8.96z"/></svg>
                         </Disclosure.Button>
                         <Disclosure.Panel className=" ">
-                            <Link to="/" className="flex px-4 items-center h-11 gap-3 text-[15px] font-medium hover:bg-[color:var(--background-third)] 1 transition-colors">
+                            <Link to="/" className="flex px-4 items-center h-11 gap-3 text-[15px] font-medium hover:bg-[color:var(--background-third)]  transition-colors">
                                 <svg viewBox="0 0 24 24" className="block"  width={18.75} height={18.75}>
                                     <path fill="currentColor" d="M18.5 2h-13C4.12 2 3 3.12 3 4.5v15C3 20.88 4.12 22 5.5 22h13c1.38 0 2.5-1.12 2.5-2.5v-15C21 3.12 19.88 2 18.5 2zM7 20H5.5c-.28 0-.5-.22-.5-.5v-2h2V20zm0-4.5H5V13h2v2.5zM7 11H5V8.5h2V11zm0-4.5H5v-2c0-.28.22-.5.5-.5H7v2.5zM15 20H9v-7h6v7zm0-9H9V4h6v7zm4 8.5c0 .28-.22.5-.5.5H17v-2.5h2v2zm0-4h-2V13h2v2.5zm0-4.5h-2V8.5h2V11zm0-4.5h-2V4h1.5c.28 0 .5.22.5.5v2z"/>
                                 </svg>
                                 Media Studio
                             </Link>
 
-                            <Link to="/" className="flex px-4 items-center h-11 gap-3 text-[15px] font-medium hover:bg-[color:var(--background-third)] 1 transition-colors">
+                            <Link to="/" className="flex px-4 items-center h-11 gap-3 text-[15px] font-medium hover:bg-[color:var(--background-third)]  transition-colors">
                                 <svg viewBox="0 0 24 24" className="block"  width={18.75} height={18.75}>
                                     <path fill="currentColor" d="M8.75 21V3h2v18h-2zM18 21V8.5h2V21h-2zM4 21l.004-10h2L6 21H4zm9.248 0v-7h2v7h-2z"/>
                                 </svg>
@@ -77,7 +77,7 @@ export default function More() {
                     Professional Tools
                     <svg
                      className={classNames("transition-all block",{
-                        "rotate-180 text-[#1d9bf0]": open
+                        "rotate-180 text-[color:var(--color-primary)]": open
                     })}
                     viewBox="0 0 24 24"  width={18.75} height={18.75}><path fill="currentColor" d="M3.543 8.96l1.414-1.42L12 14.59l7.043-7.05 1.414 1.42L12 17.41 3.543 8.96z"/></svg>
                     </Disclosure.Button>
@@ -100,7 +100,7 @@ export default function More() {
                     Settings and Support
                     <svg
                     className={classNames("transition-all block",{
-                        "rotate-180 text-[#1d9bf0]": open
+                        "rotate-180 text-[color:var(--color-primary)]": open
                     })}
                     viewBox="0 0 24 24" width={18.75} height={18.75}><path fill="currentColor" d="M3.543 8.96l1.414-1.42L12 14.59l7.043-7.05 1.414 1.42L12 17.41 3.543 8.96z"/></svg>
                     </Disclosure.Button>

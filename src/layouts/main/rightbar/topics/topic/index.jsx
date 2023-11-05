@@ -8,10 +8,10 @@ export default function Topic({ item }) {
   return (
     <Link 
     to="/"
-    className='py-3 px-4 hover:bg-white/[0.03] transition-colors relative'
+    className='py-3 px-4 hover:bg-[color:var(--background-third)] transition-colors relative'
     >
-        <div className='text-[13px] text-[color:var(--color-base-secondary)]   leading-4'>{item.title}</div>
-        <div className='text-[15px] font-bold leading-5 mt-0.5 '>
+        <div className='text-[0.813rem] text-[color:var(--color-base-secondary)]   leading-4'>{item.title}</div>
+        <div className='text-[0.938rem] font-bold leading-5 mt-0.5 '>
         {item.topic.type === 'tag' && '#'}{item.topic.value}
         </div>
         {item?.postCount && (
