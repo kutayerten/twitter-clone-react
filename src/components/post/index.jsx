@@ -1,11 +1,13 @@
 import React from 'react'
 import { numberFormat } from '~/utils/formats'
+import Photo from './photo'
+import Poll from './poll'
 
 
 export default function Post({post}) {
   return (
     <div className="px-4 py-3 gap-3 border-b border-[color:var(--background-third)] flex hover:bg-[color:var(--background-secondary)] relative before:absolute before:z-[-1] before:transition-colors before:opacity-10 before:inset-0 before:hover:bg-[color:var(background-secondary)] ">
-        <img src={post.account.avatar} alt="" className='w-10 h-10 object-cover' />
+        <img src={post.account.avatar} alt="" className='w-10 h-10 object-cover rounded-full' />
         <div className="flex-1">
             <header className="leading-5 flex items-center gap-2 mb-0.5">
                
@@ -26,6 +28,10 @@ export default function Post({post}) {
                 <div dangerouslySetInnerHTML={{
                     __html:post.content.replace(/\n/g, '<br>')
                     }}/>
+
+                    {post.type === 'photo' && <Photo photos={post.photos} />}
+                    {post.type === 'poll' && <Poll poll={post.poll} />}
+
                 <div className="flex -ml-1.5">
                     <div className="flex-1 group flex items-center gap-px">
                         <div className="w-[2.172rem] h-[2.172rem] transition-colors flex items-center justify-center text-[color:var(--color-base-secondary)] group-hover:bg-[#1d9bf01a] rounded-full group-hover:text-[#1d9bf0]">

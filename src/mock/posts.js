@@ -2,33 +2,32 @@ export const posts = [
 	{
 		id: '1708632465282150796',
 		type: 'poll',
-		content: `PROTOTURK'un paylaştığı videoları seviyor musunuz?
-Bu anket ders esnasında sorulmuştur.`,
+		content: ` Do you like Elon Musk ?`,
 		poll: {
 			voted: false,
 			votes: 12,
 			answers: [
 				{
 					id: 1,
-					text: 'Evet',
+					text: 'Yes',
 					votes: 8
 				},
 				{
 					id: 2,
-					text: 'Hayır',
+					text: 'No',
 					votes: 1
 				},
 				{
 					id: 3,
-					text: 'Yaaani',
+					text: 'You god damn it right 100%',
 					votes: 3
 				}
 			]
 		},
 		account: {
-			avatar: 'https://pbs.twimg.com/profile_images/1200814302820753410/AhAh3xlU_400x400.png',
-			username: 'prototurkcom',
-			fullName: './prototurk'
+			avatar: 'https://ak.picdn.net/contributors/240351078/avatars/thumb.jpg?t=5661427',
+			username: 'kutayerten',
+			fullName: 'kutayerten'
 		},
 		stats: {
 			comments: 43535,
@@ -40,14 +39,14 @@ Bu anket ders esnasında sorulmuştur.`,
 	{
 		id: '1708632465282150796',
 		type: 'photo',
-		content: `Toplu günaydın, ben her sabah spora devam ama her gün post atmıyorum artık, max 4 günde bir atarım çünkü en fazla 4 foto paylaşılıyormuş 🤣`,
+		content: `Hello Everyone `,
 		photos: [
-			'https://pbs.twimg.com/media/F7VBIvaW0AIZyiX?format=jpg&name=large'
+			'https://ak.picdn.net/contributors/240351078/avatars/thumb.jpg?t=5661427'
 		],
 		account: {
-			avatar: 'https://pbs.twimg.com/profile_images/1665642354009677824/LNZo7V8x_400x400.jpg',
-			username: 'tayfunerbilen',
-			fullName: 'Tayfun Erbilen'
+			avatar: 'https://ak.picdn.net/contributors/240351078/avatars/thumb.jpg?t=5661427',
+			username: 'kutayerten',
+			fullName: 'Kutay Erten'
 		},
 		stats: {
 			comments: 43535,
@@ -150,3 +149,5 @@ Prompt in ALT tag + more examples in thread:`,
 		}
 	}
 ]
+
+
